@@ -1,0 +1,110 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    background-color: rgb(176, 229, 244);
+    padding: 10px;
+}
+
+#navbar>input{
+    display: block;
+    margin: auto;
+    padding: 10px 50px 10px 5px;
+    text-align:left;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+#navbar>button{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#navbar>button:hover
+{
+color: white;
+background-color:black;
+}
+
+
+#container{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    height: auto;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+#leftSide{
+    width: 45%;
+    /* height: 500px; */
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* display: flex; */
+    background-color: aliceblue;
+
+
+}
+#rightSide{
+    width: 45%;
+    /* border: 1px solid; */
+    height: 500px;
+    border-radius: 10px;
+
+}
+
+
+
+/* Temp div */
+#tempDiv
+{
+    height: auto;
+    width: 60%;
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+#tempDiv:hover
+{
+    border-color:yellow;
+}
+
+#tempDiv h2
+{
+    color: red;
+}
+
+
+/* Google Map */
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+#sunsetImg{
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
